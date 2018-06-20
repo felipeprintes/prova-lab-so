@@ -1,0 +1,28 @@
+Unilasalle-RJ - AV2
+Aluno: (Coloque aqui o seu nome e matricula)
+Prova Av2 de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: ????
+--------------------------------------------------
+1-Faça um  shell que receba um nome de arquivo como parametro e 
+responde se este arquivo existe ou não.
+
+2-Reescreva o codigo abaixo usando a estrutura for.
+#!/bin/bash
+cont=$1
+fat=1
+while [ $cont -gt 0 ] 
+do
+   fat=$(( $fat * $cont ))
+   cont=$(( $cont - 1 ))
+done
+echo $fat
+
+3-Usando estrutura de repetição, faça um  para exibir todos os arquivos
+da pasta atual com tamanho = 0kb (vazio).
+
+4-Usando estrutura de repetição, faça um  para ler a PASTA ATUAL, calcular e exibir:
+- O total de arquivos lidos
+- O total de arquivos com a extensão .txt 
+- O total de arquivos com a extensão .c
+- O total de arquivos com a extensão .py
